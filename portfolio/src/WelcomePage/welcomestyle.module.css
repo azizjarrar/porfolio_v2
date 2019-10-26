@@ -18,10 +18,12 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     animation-name:topbottom;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     display: grid;
     grid-template-columns: auto auto auto;
+    /***************************/
+    
 }
 @keyframes topbottom{
     from{width: 0%;}
@@ -30,14 +32,18 @@
         border-right: 0px solid white;}
 }
 .aboutme{
-    position: relative;
+    position: absolute;
+    top:0;
     height: 0;
+    width: 100%;
     background-color: #2F2F2F;
     animation-name:aboutmedown;
     animation-fill-mode: forwards;
-    
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 2s;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
 }
 @keyframes aboutmedown{
     from{height: 0%;}
@@ -53,9 +59,11 @@
     background-color: #2F2F2F;
     animation-name:myskillsup;
     animation-fill-mode: forwards;
-    
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 2s;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
 }
 @keyframes myskillsup{
     from{height: 0%;}
@@ -64,14 +72,18 @@
 }
 /***************************/
 .contactme{
-    position: relative;
+    position: absolute;
+    top:0;
     height: 0;
+    width: 100%;
     background-color: #2F2F2F;
     animation-name:contactmedown;
     animation-fill-mode: forwards;
-    
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 2s;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
 }
 @keyframes contactmedown{
     from{height: 0%;}
@@ -79,3 +91,71 @@
     
 }
 
+.h1aboutme{
+    animation-delay: 1s;
+    margin: 0;
+    border:0;
+   /* display: none;  tna7eha jemla mi doom*/
+    visibility:hidden;/*t5aleha fi dome ama t5abeha*/
+    animation-name:after1sc;
+    animation-fill-mode: forwards;
+    color:#CACACA;
+    font-family: Verdana, sans-serif;
+}
+.h1myskills{
+    animation-delay: 1s;
+    margin: 0;
+    border:0;
+    visibility:hidden;
+    animation-name:after1sc;
+    animation-fill-mode: forwards;
+    color:#CACACA;
+    font-family: Verdana, sans-serif;
+}
+.h1contactme{
+    animation-delay: 1s;
+    margin: 0;
+    border:0;
+    visibility:hidden;
+    animation-name:after1sc;
+    animation-fill-mode: forwards;
+    color:#CACACA;
+    font-family: Verdana, sans-serif;
+}
+@keyframes after1sc{
+  100%{visibility: visible};
+}
+.aboutme_image_h1_container{
+    height: 50%;
+    width: 80%;
+    position: relative;
+    display: grid;  
+    grid-template-rows: 60% 40%;
+    transition:  height 2s;
+   
+}
+.aboutme_image_h1_container:hover{
+    height:  70%;
+}
+@keyframes tekbarbilwa9t{
+    from{width: 50%; height: 50%;}
+    to{width: 70%;height: 70%;}
+   
+}
+.imagecontainer{
+    position: relative;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.h1inmidle{
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
