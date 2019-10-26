@@ -131,11 +131,12 @@
     position: relative;
     display: grid;  
     grid-template-rows: 60% 40%;
-    transition:  height 2s;
+    transition:  height 2s, width 2s ;
    
 }
 .aboutme_image_h1_container:hover{
     height:  70%;
+    width: 90%;
 }
 @keyframes tekbarbilwa9t{
     from{width: 50%; height: 50%;}
