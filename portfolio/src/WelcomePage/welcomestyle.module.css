@@ -1,0 +1,81 @@
+.aboutcontainer{
+    position: relative;
+}
+.myskillscontainer{
+    position: relative;
+}
+.contactmecontainer{
+    position: relative;
+}
+.welcomepage{
+    height: 100%;
+    width: 0px;
+     position: relative;
+    background-color: white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    animation-name:topbottom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+@keyframes topbottom{
+    from{width: 0%;}
+    to{width: 100%;}
+    100%{    border-left: 0px solid white;
+        border-right: 0px solid white;}
+}
+.aboutme{
+    position: relative;
+    height: 0;
+    background-color: #2F2F2F;
+    animation-name:aboutmedown;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+@keyframes aboutmedown{
+    from{height: 0%;}
+    to{height: 100%;}
+    
+}
+/**************************/
+.myskills{
+    position: absolute;
+    bottom: 0px;
+    height: 0px;
+    width: 100%;
+    background-color: #2F2F2F;
+    animation-name:myskillsup;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+@keyframes myskillsup{
+    from{height: 0%;}
+    to{height: 100%;}
+    
+}
+/***************************/
+.contactme{
+    position: relative;
+    height: 0;
+    background-color: #2F2F2F;
+    animation-name:contactmedown;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+@keyframes contactmedown{
+    from{height: 0%;}
+    to{height: 100%;}
+    
+}
+
