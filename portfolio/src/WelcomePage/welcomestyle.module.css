@@ -160,3 +160,87 @@ img{
     align-items: center; /* Vertical center alignment */
     justify-content: center; /* Horizontal center alignment */
 }
+
+/***************************adi ta5lta hedhi ki tji 5arej mil page yatl3ou****************************************************/
+.aboutmeOUT{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: #2F2F2F;
+    animation-name:aboutmedownOUT;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+@keyframes aboutmedownOUT{
+    from{height: 100%;}
+    to{height: 0%;}
+    
+}
+/**************************/
+.myskillsOUT{
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #2F2F2F;
+    animation-name:myskillsupOUT;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+@keyframes myskillsupOUT{
+    from{height: 100%;}
+    to{height: 0%;}
+    
+}
+/***************************/
+.contactmeOUT{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: #2F2F2F;
+    animation-name:contactmedownOUT;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+@keyframes contactmedownOUT{
+    from{height: 100%;}
+    to{height: 0%;}
+    
+}
+
+
+
+
+
+.h1aboutmeOUT{
+
+    margin: 0;
+    border:0;
+
+    visibility:hidden;/*t5aleha fi dome ama t5abeha*/
+
+}
+.h1myskillsOUT{
+
+    margin: 0;
+    border:0;
+    visibility:hidden;
+}
+.h1contactmeOUT{
+  
+    margin: 0;
+    border:0;
+    visibility:hidden;
+
+}
