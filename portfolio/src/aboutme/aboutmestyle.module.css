@@ -1,5 +1,24 @@
 .aboutmecontainer{
     background: brown;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 0%;
+    width: 0%;
+    animation-name: cerclegetbig;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+
+    
+}
+@keyframes cerclegetbig{
+   from{height: 0%;width: 0%; border-bottom-right-radius: 100%;} 
+   to{height: 100%;width: 100%; border-bottom-right-radius: 0%;} 
+}
+.white{
+    background: white;
+    position: relative;
     height: 100%;
     width: 100%;
 }

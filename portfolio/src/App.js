@@ -11,7 +11,9 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path='/' render={(props)=> <WelcomePage {...props}/>}></Route>
-
+        <Route exact path='/Aboutme' render={(props)=> <Aboutme {...props}/>}></Route>
+        <Route exact path='/Contactme' render={(props)=> <Contactme {...props}/>}></Route>
+        <Route exact path='/Myskills' render={(props)=> <Myskills {...props}/>}></Route>
         </Switch>
     </div>
   );
