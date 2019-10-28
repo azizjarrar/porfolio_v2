@@ -40,7 +40,7 @@
     animation-name:aboutmedown;
     animation-fill-mode: forwards;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 1s;
     display: flex;
     align-items: center; /* Vertical center alignment */
     justify-content: center; /* Horizontal center alignment */
@@ -60,7 +60,7 @@
     animation-name:myskillsup;
     animation-fill-mode: forwards;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 1s;
     display: flex;
     align-items: center; /* Vertical center alignment */
     justify-content: center; /* Horizontal center alignment */
@@ -80,7 +80,7 @@
     animation-name:contactmedown;
     animation-fill-mode: forwards;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 1s;
     display: flex;
     align-items: center; /* Vertical center alignment */
     justify-content: center; /* Horizontal center alignment */
